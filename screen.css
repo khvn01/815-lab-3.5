@@ -1,4 +1,38 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body{
+    background: #0F110C;
+    margin-top: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    background: #CECCCC;
+    color: #0F110C;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.card div{
+    padding: 20px;
+}
+
+h1{
+    background: #DB5A42;
+    margin:0;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+img{
+    float:left;
+    margin-right: 20px;
+}
+
+ul{
+    margin:0;
+    padding-left:0;
+    list-style-position: inside;
 }
